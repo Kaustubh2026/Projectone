@@ -1,0 +1,37 @@
+/**
+ * .gitignore
+ * 
+ * Git ignore configuration for NatureKids project.
+ * Specifies files and directories that should be excluded
+ * from version control.
+ * 
+ * Key Exclusions:
+ * - Node modules and dependencies
+ * - Build outputs
+ * - Environment files
+ * - Debug logs
+ * - System files
+ * - IDE configurations
+ * 
+ * @author NatureKids Team
+ * @version 1.0.0
+ */
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Allow src directory to be tracked
+!src/
