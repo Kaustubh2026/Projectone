@@ -97,6 +97,19 @@ function Login() {
     e.preventDefault();
     setError('');
 
+    // Hardcoded user for testing
+    const hardcodedUsername = 'testuser';
+    const hardcodedPassword = 'password';
+
+    if (formData.username === hardcodedUsername && formData.password === hardcodedPassword) {
+      // Simulate successful login
+      console.log('Logged in with hardcoded user');
+      // You might want to set some dummy user state in your AuthContext here if needed
+      navigate('/');
+      return;
+    }
+
+    // Original login logic
     try {
       await login(formData);
       navigate('/');
