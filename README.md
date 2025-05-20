@@ -29,7 +29,8 @@ NatureKids is a modern web platform designed to help parents find and book natur
 - **Gamification**: Earn badges and track progress through outdoor activities
 - **Reviews & Ratings**: Read and share experiences with the community
 - **Responsive Design**: Mobile-first approach for seamless experience across devices
-
+## Miro Link
+-https://miro.com/app/board/uXjVIV9T-A0=/?inviteKey=YzJvM1VBU2dxS2ZhOG1RNTRMeXhLZHJIc1crT0t0enEvai96di9HRmlhSXNka3BWTHJXaFBrZkM4dlVpV01iTmpYTGYyOXA1R0h4T0JKRHN2OHV3UW4vY2ZxQWw0T2dWRFFqbUFIQnpmWHd3TzRDZWNZZ0hJUDFwVms2U1RDMVJhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE%3D
 ## Tech Stack
 
 - React.js
