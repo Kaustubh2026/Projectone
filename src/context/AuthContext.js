@@ -32,6 +32,26 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (credentials) => {
+    // Hardcoded user check
+    const hardcodedUsername = 'testuser';
+    const hardcodedPassword = 'password';
+
+    if (credentials.username === hardcodedUsername && credentials.password === hardcodedPassword) {
+      console.log('Simulating login with hardcoded user');
+      // Simulate a user object structure similar to what your API might return
+      const dummyUser = {
+        id: 'hardcoded-user-id',
+        username: hardcodedUsername,
+        email: 'testuser@example.com',
+        // Add other properties your user object might have
+      };
+      localStorage.setItem('user', JSON.stringify(dummyUser));
+      setUser(dummyUser);
+      setIsAuthenticated(true);
+      return dummyUser;
+    }
+
+    // Original login logic
     try {
       const response = await apiService.login(credentials);
       const userData = response.data.user;
