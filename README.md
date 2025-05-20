@@ -31,6 +31,13 @@ NatureKids is a modern web platform designed to help parents find and book natur
 - **Responsive Design**: Mobile-first approach for seamless experience across devices
 ## Miro Link
 -https://miro.com/app/board/uXjVIV9T-A0=/?inviteKey=YzJvM1VBU2dxS2ZhOG1RNTRMeXhLZHJIc1crT0t0enEvai96di9HRmlhSXNka3BWTHJXaFBrZkM4dlVpV01iTmpYTGYyOXA1R0h4T0JKRHN2OHV3UW4vY2ZxQWw0T2dWRFFqbUFIQnpmWHd3TzRDZWNZZ0hJUDFwVms2U1RDMVJhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE%3D
+
+## Form
+-https://docs.google.com/forms/d/e/1FAIpQLSfpS7Ke8IEXi_ZYy7U41Q6beBbbLwY_eMjFPZkPbTyoqfl84Q/viewform
+
+## Design link
+https://app.visily.ai/projects/d5abd7ce-d8f3-48a6-a996-87d5a73b2ac1/boards/1742165
+
 ## Tech Stack
 
 - React.js
