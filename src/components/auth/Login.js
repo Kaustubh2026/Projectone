@@ -97,22 +97,26 @@ function Login() {
     e.preventDefault();
     setError('');
 
-    // Hardcoded user for testing
+    // Hardcoded credentials
     const hardcodedUsername = 'testuser';
     const hardcodedPassword = 'password';
 
     if (formData.username === hardcodedUsername && formData.password === hardcodedPassword) {
-      // Simulate successful login
-      console.log('Logged in with hardcoded user');
-      // You might want to set some dummy user state in your AuthContext here if needed
-      navigate('/');
+      try {
+        // Call the login function from AuthContext
+        await login(formData);
+        // Navigate to the activity planner page
+        navigate('/planner');
+      } catch (err) {
+        setError(err.message || 'Login failed');
+      }
       return;
     }
 
-    // Original login logic
+    // If not using hardcoded credentials, try regular login
     try {
       await login(formData);
-      navigate('/');
+      navigate('/planner');
     } catch (err) {
       setError(err.message || 'Login failed');
     }
