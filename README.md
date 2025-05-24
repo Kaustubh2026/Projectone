@@ -73,6 +73,17 @@ npm start
 
 The application will be available at `http://localhost:3000`
 
+### Default User Credentials
+
+For testing purposes, you can use the following default credentials:
+
+```
+Username: testuser
+Password: password
+```
+
+These credentials will give you access to all features of the application, including the activity planner and protected routes.
+
 ## Project Structure
 
 ```
