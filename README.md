@@ -35,6 +35,9 @@ NatureKids is a modern web platform designed to help parents find and book natur
 ## Form
 -https://docs.google.com/forms/d/e/1FAIpQLSfpS7Ke8IEXi_ZYy7U41Q6beBbbLwY_eMjFPZkPbTyoqfl84Q/viewform
 
+## Survey Form Report
+https://docs.google.com/document/d/1YJLtWamsDTP4Xx7wMINDPjQrpn98YTIiwZvMVYdu3K8/edit?usp=sharing
+
 ## Design link
 https://app.visily.ai/projects/d5abd7ce-d8f3-48a6-a996-87d5a73b2ac1/boards/1742165
 
